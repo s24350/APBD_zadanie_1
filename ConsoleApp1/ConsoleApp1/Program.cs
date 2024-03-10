@@ -1,2 +1,13 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿
 Console.WriteLine("Hello, World!");
+
+namespace x
+{
+    class B
+    {
+        public static void SaySomething()
+        {
+            Console.WriteLine("APBD 1");
+        }
+    }
+}
