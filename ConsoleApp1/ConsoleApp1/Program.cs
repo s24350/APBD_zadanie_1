@@ -1,5 +1,6 @@
 ﻿
 Console.WriteLine("Hello, World!");
+x.B.SaySomething();
 
 namespace x
 {
@@ -11,3 +12,4 @@ namespace x
         }
     }
 }
+
