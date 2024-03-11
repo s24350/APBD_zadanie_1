@@ -8,7 +8,7 @@ namespace x
     {
         public static void SaySomething()
         {
-            Console.WriteLine("APBD 1");
+            Console.WriteLine("Hello Hello APBD");
         }
     }
 }
