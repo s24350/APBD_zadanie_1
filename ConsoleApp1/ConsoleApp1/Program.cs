@@ -1,4 +1,5 @@
 ﻿
+Console.WriteLine("Hello, Hello, Hello");
 Console.WriteLine("Hello new World");
 x.B.SaySomething();
 
@@ -27,14 +28,14 @@ namespace x
         }
 
         public static int getMaxElement(int[] x) {
-            int maxOfTab = x[0];
+            int maxElement = x[0];
             for (int i = 0; i < x.Length; i++)
             {
-                if (x[i] > maxOfTab) { 
-                    maxOfTab = x[i];
+                if (x[i] > maxElement) { 
+                    maxElement = x[i];
                 }
             }
-            return maxOfTab;
+            return maxElement;
         }
     }
 }
