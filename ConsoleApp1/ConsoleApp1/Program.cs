@@ -1,5 +1,5 @@
 ﻿
-Console.WriteLine("Hello, World!");
+Console.WriteLine("Hello, Hello, Hello");
 x.B.SaySomething();
 
 var average = x.B.countAverage(new int[] { 1, 2, 3, 4, 5, 6});
@@ -27,14 +27,14 @@ namespace x
         }
 
         public static int getMaxElement(int[] x) {
-            int max = x[0];
+            int maxElement = x[0];
             for (int i = 0; i < x.Length; i++)
             {
-                if (x[i] > max) { 
-                    max = x[i];
+                if (x[i] > maxElement) { 
+                    maxElement = x[i];
                 }
             }
-            return max;
+            return maxElement;
         }
     }
 }
