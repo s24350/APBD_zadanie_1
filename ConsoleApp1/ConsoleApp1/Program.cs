@@ -4,6 +4,10 @@ x.B.SaySomething();
 
 var average = x.B.countAverage(new int[] { 1, 2, 3, 4, 5, 6});
 Console.WriteLine(average);
+
+var max = x.B.getMaxElement(new int[] {0,7,-2,3,10,0,-2});
+Console.WriteLine(max);
+
 namespace x
 {
     class B
@@ -20,6 +24,17 @@ namespace x
                 sum+= x[i];
             }
             return sum / x.Length;
+        }
+
+        public static int getMaxElement(int[] x) {
+            int max = x[0];
+            for (int i = 0; i < x.Length; i++)
+            {
+                if (x[i] > max) { 
+                    max = x[i];
+                }
+            }
+            return max;
         }
     }
 }
